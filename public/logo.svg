@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="C:\Users\Jarek\bitmapa.png"
+   inkscape:export-xdpi="24.491892"
+   inkscape:export-ydpi="24.491892"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.38217593"
+     inkscape:cx="209.32768"
+     inkscape:cy="726.10539"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.7108px;line-height:1.25;font-family:'BankGothic Md BT';-inkscape-font-specification:'BankGothic Md BT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.34458"
+       x="2.1140482"
+       y="58.586803"
+       id="text2079"
+       transform="scale(0.98905071,1.0110705)"><tspan
+         id="tspan2077"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.1978px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.34458"
+         x="2.1140482"
+         y="58.586803"
+         sodipodi:role="line">I<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.1978px;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;stroke-width:1.34458"
+   id="tspan20302">KUZM</tspan></tspan></text>
+    <path
+       id="rect22634"
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:1.08322"
+       d="M 185.11547,22.838516 166.9942,59.13231 h 4.71625 l 16.10552,-32.252033 z" />
+    <path
+       id="rect22634-7"
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:1.08322"
+       d="m 185.48221,22.146084 -2.26196,4.490571 18.85475,37.758207 3.60579,-1.800337 z" />
+    <path
+       id="rect23016"
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:1.34323"
+       d="m 5.3298233,62.917649 v 4.190499 H 206.05008 v -4.190499 z" />
+    <path
+       id="rect23018"
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:1.46238"
+       d="m 169.72192,55.116203 -2.52768,4.016107 h 25.8973 v -4.016107 z" />
+    <rect
+       id="rect23188"
+       width="3.4524462"
+       height="1.8597335"
+       x="144.82657"
+       y="156.79584"
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:1.26635"
+       transform="matrix(0.86204025,-0.50683983,0.49259523,0.87025855,0,0)" />
+    <rect
+       id="rect23572"
+       width="0.14923126"
+       height="0.074615628"
+       x="209.48494"
+       y="63.896198"
+       style="stroke-width:1.31306" />
+  </g>
+</svg>
