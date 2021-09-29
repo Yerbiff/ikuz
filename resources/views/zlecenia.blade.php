@@ -13,11 +13,11 @@
                     <table class="w-full border">
                         <thead>
                         <tr class="bg-gray-50 border-b">
-                            <th class="p-2 border-r cursor-pointer text-sm font-thin text-gray-500">
-                                <div class="flex items-center justify-center">
-                                    ID
-                                </div>
-                            </th>
+{{--                            <th class="p-2 border-r cursor-pointer text-sm font-thin text-gray-500">--}}
+{{--                                <div class="flex items-center justify-center">--}}
+{{--                                    ID--}}
+{{--                                </div>--}}
+{{--                            </th>--}}
                             <th class="p-2 border-r cursor-pointer text-sm font-thin text-gray-500">
                                 <div class="flex items-center justify-center">
                                     Zwierze
@@ -44,7 +44,7 @@
                         @foreach($new_orders as $new_order)
                             <tr class="bg-gray-100 text-center border-b text-sm text-gray-600">
                                 @if($new_order['user_id'] == Auth::user()->id)
-                                <td class="p-2 border-r">{{$new_order['id']}}</td>
+{{--                                <td class="p-2 border-r">{{$new_order['id']}}</td>--}}
                                 <td class="p-2 border-r">{{$new_order['animal']}}</td>
                                 <td class="p-2 border-r">{{$new_order['time']}}</td>
                                 <td class="p-2 border-r">{{$new_order['info']}}</td>

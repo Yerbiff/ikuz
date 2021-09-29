@@ -4,7 +4,7 @@
     {{--            <x-jet-authentication-card-logo />--}}
     {{--        </x-slot>--}}
 
-    <x-jet-validation-errors class="mb-4" />
+
 
     {{--        @if (session('status'))--}}
     {{--            <div class="mb-4 font-medium text-sm text-green-600">--}}
@@ -74,11 +74,11 @@
     <div class="w-full md:w-1/2 flex flex-col">
 
         <div class="flex justify-center md:justify-start pt-12 md:pl-12 md:-mb-24">
-            <a href="#" class="bg-gray-800 text-white font-bold text-xl p-4">Inkuz</a>
+            <a href="/" class="bg-gray-800 text-white font-bold text-xl p-4">Inkuz</a>
         </div>
 
         <div class="flex flex-col justify-center md:justify-start my-auto pt-8 md:pt-0 px-8 md:px-24 lg:px-32">
-
+            <x-jet-validation-errors class="mb-4" />
             @if (session('status'))
                 <div class="mb-4 font-medium text-sm text-green-600">
                     {{ session('status') }}
@@ -93,28 +93,28 @@
                 </div>
 
                 <div class="mt-4">
-                    <x-jet-label for="password" value="{{ __('Password') }}" />
+                    <x-jet-label for="password" value="{{ __('Hasło') }}" />
                     <x-jet-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
                 </div>
 
                 <div class="block mt-4">
                     <label for="remember_me" class="flex items-center">
                         <x-jet-checkbox id="remember_me" name="remember" />
-                        <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
+                        <span class="ml-2 text-sm text-gray-600">{{ __('Pamiętaj mnie') }}</span>
                     </label>
                 </div>
 
                 <div class="flex items-center justify-end mt-4">
                     @if (Route::has('password.request'))
                         <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
-                            {{ __('Forgot your password?') }}
+                            {{ __('Zapomniałeś hasła?') }}
                         </a>
                     @endif
 
                     <x-jet-button class="ml-4">
-                        {{ __('Login') }}
+                        {{ __('Zaloguj') }}
                     </x-jet-button>
-                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Rejestracja</a>
                 </div>
             </form>
         </div>

@@ -24,8 +24,8 @@
         <!-- Register Section -->
         <div class="w-full md:w-1/2 flex flex-col">
 
-            <div class="flex justify-center md:justify-start pt-12 md:pl-12 md:-mb-12">
-                <a href="#" class="bg-black text-white font-bold text-xl p-4">Aned</a>
+            <div class="flex justify-center md:justify-start pt-12 md:pl-12 md:-mb-24">
+                <a href="/" class="bg-gray-800 text-white font-bold text-xl p-4">Inkuz</a>
             </div>
 
             <div class="flex flex-col justify-center md:justify-start my-auto pt-8 md:pt-0 px-8 md:px-24 lg:px-32">
@@ -34,7 +34,7 @@
                     @csrf
 
                     <div>
-                        <x-jet-label for="name" value="{{ __('Name') }}" />
+                        <x-jet-label for="name" value="{{ __('Nazwa') }}" />
                         <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
                     </div>
 
@@ -44,12 +44,12 @@
                     </div>
 
                     <div class="mt-4">
-                        <x-jet-label for="password" value="{{ __('Password') }}" />
+                        <x-jet-label for="password" value="{{ __('Hasło') }}" />
                         <x-jet-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="new-password" />
                     </div>
 
                     <div class="mt-4">
-                        <x-jet-label for="password_confirmation" value="{{ __('Confirm Password') }}" />
+                        <x-jet-label for="password_confirmation" value="{{ __('Potwierdz hasło') }}" />
                         <x-jet-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" />
                     </div>
 
@@ -72,11 +72,11 @@
 
                     <div class="flex items-center justify-end mt-4">
                         <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
-                            {{ __('Already registered?') }}
+                            {{ __('Posiadasz konto?') }}
                         </a>
 
                         <x-jet-button class="ml-4">
-                            {{ __('Register') }}
+                            {{ __('Zarejestruj') }}
                         </x-jet-button>
                     </div>
                 </form>

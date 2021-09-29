@@ -10,7 +10,6 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <form class="w-full max-w-lg" action="new-order" method="POST">
                     @csrf
-                    <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
                         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                             <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-time">
                                 Godzina
@@ -36,9 +35,10 @@
                             </label>
                             <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-info" name="info" type="text" placeholder="Tu wpisz swój tekst">
                         </div>
-{{--                    <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">--}}
-                        <input class="appearance-none block w-full bg-gray-800 text-white border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-info" type="submit" placeholder="">
-{{--                    </div>--}}
+                            <button class="appearance-none block w-full bg-gray-800 text-white border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="submit" style="text-align: center">
+                                {{ __('Podsumowanie') }}
+                            </button>
+
                 </form>
             </div>
         </div>

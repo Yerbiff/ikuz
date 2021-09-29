@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NeworderController;
+use App\Http\Controllers\NewsletterController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,6 +26,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/zlecenia', [NeworderContr
 Route::middleware(['auth:sanctum', 'verified'])->get('/new-order', function () {
     return view('new-order');
 })->name('new-order');
+Route::post('/',[NewsletterController::class,'newEmail']);
 Route::post('new-order',[NeworderController::class,'newOrder']);
 Route::get('delete/{id}',[NeworderController::class,'delete']);
 //Route::get('edit/{id}',[NeworderController::class,'edit']);

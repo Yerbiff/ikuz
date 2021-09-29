@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -152,11 +153,15 @@
                                 <!-- To make this form functional, sign up at-->
                                 <!-- https://startbootstrap.com/solution/contact-forms-->
                                 <!-- to get an API token!-->
-                                <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
+{{--                                data-sb-form-api-token='API_TOKEN'--}}
+
+                                <form class="form-signup" id="contactForm"  action="/" method="POST">
+                                    @csrf
                                     <!-- Email address input-->
                                     <div class="row input-group-newsletter">
-                                        <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Wpisz adres email" aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                        <div class="col-auto"><button class="bg-gray-800 btn text-white disabled" id="submitButton" type="submit">Powiadom mnie</button></div>
+                                        <div class="col"><input class="form-control" id="emailAddress" type="email" name="email" placeholder="Wpisz adres email" aria-label="Enter email address..." data-sb-validations="required,email" /></div>
+                                        <div class="col-auto"><button class="bg-gray-800 btn text-white" id="submitButton" type="submit">Powiadom mnie</button></div>
+{{--                                        disabled--}}
                                     </div>
                                     <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
                                     <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
@@ -167,14 +172,14 @@
                                     <div class="d-none" id="submitSuccessMessage">
                                         <div class="text-center mb-3 mt-2 text-white">
                                             <div class="fw-bolder">Sukces</div>
-                                            Twój adres email zosatł dodany do newslettera
+                                            Twój adres email został dodany do newslettera
                                         </div>
                                     </div>
                                     <!-- Submit error message-->
                                     <!---->
                                     <!-- This is what your users will see when there is-->
                                     <!-- an error submitting the form-->
-                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
+                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Wystąpił niespodziewany błąd</div></div>
                                 </form>
                             </div>
                         </div>
