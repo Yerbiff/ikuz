@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\New_order;
+use App\Models\User;
 
 class NeworderController extends Controller
 {
@@ -30,6 +31,10 @@ class NeworderController extends Controller
         $data-> delete();
         return redirect('zlecenia');
     }
+//    function getUserinfo()
+//    {
+//        return DB::select('zlecenia');
+//    }
 //    function edit($id)
 //    {
 //        $data = New_order::find($id);

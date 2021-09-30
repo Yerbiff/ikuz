@@ -61,10 +61,4 @@ class User extends Authenticatable
         'profile_photo_url',
     ];
 
-
-//    function getId(Request $req)
-//    {
-//        return DB::select("select id from user");
-//    }
-
 }
