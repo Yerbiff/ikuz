@@ -4,7 +4,8 @@
 <div align="center">
 
 
-    <img src="![Screenshot_11](https://user-images.githubusercontent.com/48961236/177787625-ce434c41-1549-464d-803d-8615b7c29223.png)" alt="Logo" width="80" height="80">
+   
+![Screenshot_11](https://user-images.githubusercontent.com/48961236/177788519-a5b493cb-9da3-4c34-be9a-0fcc8809d280.png)
 
 
   <h3 align="center">Inkuz</h3>
